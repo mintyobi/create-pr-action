@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup            # テストの準備
-        run: date > foo.md
+        run: date > foobar.md
       - name: Exercise         # テスト対象コードの実行
         id: exercise
         uses: ./
